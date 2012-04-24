@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Full Circle]]></title>
+  <title><![CDATA[Full Circle - lite]]></title>
   <link href="http://FCCTT.github.com/atom.xml" rel="self"/>
   <link href="http://FCCTT.github.com/"/>
-  <updated>2012-04-23T23:54:04+08:00</updated>
+  <updated>2012-04-24T11:02:34+08:00</updated>
   <id>http://FCCTT.github.com/</id>
   <author>
     <name><![CDATA[fcctt.org]]></name>
