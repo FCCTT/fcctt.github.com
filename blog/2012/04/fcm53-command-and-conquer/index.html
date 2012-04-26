@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>53期 - 编者的话 - Full Circle - lite</title>
+  <title>53期 - 决胜命令行 - Full Circle - lite</title>
   <meta name="author" content="fcctt.org">
 
   
-  <meta name="description" content="翻译：郜翼 校对：李洋 杨佳 吴云 欢迎来到新一期的 Full Circle 杂志！ 这个月将为您推出新的 How-To 系列&#8211;备份策略。在本篇文章中的前几个部分， Allan 论述了应该在哪里存放你的物理备份。在之后的杂志中，他将讨论备份应用程序(如 Deja-Dup &hellip;">
+  <meta name="description" content="作者：Lucus Westermann | 翻译：charliephil 校对：吴云 顾履冰 关于52期的决胜命令行：热心的Gord Gampbell指出中文可以竖写，这点与我之前的设想大相径庭。 决胜命令行的读者们，包括你，如果像我一样， 可能早已劝说一两位你的熟人去使用Linux了。 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://FCCTT.github.com/blog/2012/04/fcm53-editorial">
+  <link rel="canonical" href="http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -67,7 +67,7 @@
   
   <header>
     
-      <h1 class="entry-title">53期 - 编者的话</h1>
+      <h1 class="entry-title">53期 - 决胜命令行</h1>
     
     
       <p class="meta">
@@ -83,7 +83,7 @@
   
 
 
-<time datetime="2012-04-26T18:06:00+08:00" pubdate data-updated="true">Apr 26<span>th</span>, 2012</time>
+<time datetime="2012-04-26T20:07:00+08:00" pubdate data-updated="true">Apr 26<span>th</span>, 2012</time>
         
          | <a href="#disqus_thread">Comments</a>
         
@@ -92,21 +92,43 @@
   </header>
 
 
-<div class="entry-content"><p><code>翻译：郜翼 校对：李洋 杨佳 吴云</code></p>
+<div class="entry-content"><p><code>作者：Lucus Westermann | 翻译：charliephil 校对：吴云 顾履冰</code></p>
 
-<p>欢迎来到新一期的 Full Circle 杂志！</p>
+<blockquote><p>关于52期的决胜命令行：热心的Gord Gampbell指出中文可以竖写，这点与我之前的设想大相径庭。</p></blockquote>
 
-<p>这个月将为您推出新的 <strong>How-To 系列&#8211;备份策略</strong>。在本篇文章中的前几个部分， Allan 论述了应该在哪里存放你的物理备份。在之后的杂志中，他将讨论备份应用程序(如 Deja-Dup 将作为标准应用随 Ubuntu 11.10 发布)，当然还有，在“云端”存储你的备份。</p>
+<p>决胜命令行的读者们，包括你，如果像我一样， 可能早已劝说一两位你的熟人去使用Linux了。 我的初衷就是让我的操作系统始终尽可能稳定地运行，让用户尽可能少的争论（比如为了抵制Windows如何少出问题的抱怨）.在我处理好上述问题之后，便会引导用户进行短期使用，期间通过一些事件提醒他们需要注意的事项——这些需要依赖于我所安装的发行版本。但是，最近我给一个笔记本电脑装上了ArchLinux（我们决定放弃Chakra后）。不久之后，KDM在运行级别5时不能正常启动了，还退出用户界面进入tty终端屏幕里。</p>
 
-<p>我想花一点时间发送一条带有祝贺的特别信息给整个意大利翻译团队。他们以相当快的速度完成了往期缺少的翻译，而且是第一个一期不落将所有杂志都翻译完的团队。</p>
+<p>这是造成用户对于如何操作感到不知所措的时刻之一，由此我带来了今天文章的主题，当日消息（the Message of the Day）。当日消息是一个显示登录信息的系统文件，位于<code>/etc/motd</code> 和 <code>/etc/motd.tail</code>中。对于Ubuntu还有个<code>update-motd</code>软件包，提供了更多的选项。通常，被服务器管理员用来列出使用条目，或者一些帮助信息（房间，电话号码，电子邮件等等）。由于它是一个text文本文件，任何内容都可以加入到其中。我觉得如果你能把涉及到的有关事项加入到当日消息中会比较有用，这样便于你的用户需要通过shell终端登录时不至于完全困惑了。</p>
 
-<p>我同样想感谢那些通过邮件轰炸来帮助我提出最新 FCM 想法的读者，如果你没有在邮件列表中（请转到 <a href="http://fullcirclemagazine.org">fullcirclemagazine.org</a> 网页并登录，以获得第一手资讯，包括最新期刊和独家邮件），请通知我，让我将你添加进去。我的想法是在FCM里面增开一个新的专题栏目，在这里我会引例一个 Windows 特性，同时展示 ＊ubuntu和它的等同特性。 称之为 ＊buntu，是因为我想展示这些是如何在 Gnome，KDE，LXDE 和 XFCE 下做到的。我收到了许多很好的想法，正是这些想法才使得新栏目将在54期首发。还要感谢每一个给我发邮件帮助我实现这个想法的人。我希望自己能够采用你们所有的想法，但现在我只需要几个我正联系的人。如果你没能成功地帮到我，不要悲伤、难过，继续加油写！无论你正在做什么与*buntu有关的事儿，都写下来，因为这都将帮助到远在他方的人。想法越古怪离奇越好。如果你将它用于科学或者医学领域，请告诉我们你正在使用的软件以及它是如何帮助你工作的。</p>
+<h3>关于文件</h3>
 
-<p>祝安好，保持联系。</p>
+<p>对于Ubuntu服务器（以及桌面版），需要去编辑<code>/etc/motd.tail</code>和<code>/etc/motd</code>，以确保.tail文件在系统重启之后不会重写<code>/etc/motd</code>文件。 对于较新版本的Ubuntu，文件可能位于<code>/etc/update-motd.d/</code>目录。 这看来是update-motd软件包导致的，但是这些文件已经被清楚地命名了并且便于编辑。</p>
 
-<p>Ronnie</p>
+<h3>有用的命令</h3>
 
-<p><a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x72;&#111;&#110;&#110;&#x69;&#x65;&#x40;&#x66;&#x75;&#x6c;&#x6c;&#99;&#x69;&#x72;&#x63;&#108;&#101;&#x6d;&#x61;&#x67;&#97;&#x7a;&#x69;&#x6e;&#101;&#x2e;&#x6f;&#x72;&#103;">&#114;&#111;&#x6e;&#110;&#105;&#x65;&#x40;&#102;&#117;&#108;&#x6c;&#x63;&#105;&#114;&#x63;&#x6c;&#x65;&#x6d;&#x61;&#103;&#x61;&#122;&#x69;&#110;&#x65;&#46;&#111;&#x72;&#x67;</a></p>
+<p>我做的第一件事就是增加一组命令列表方便在shell中使用（如cd,cat,vim/nano,pwd等）及各个命令的简要解释说明。此后，你可能想提供一些系统的特定命令（比如，你有个基于命令行已配置的邮件客户端，如何去访问它呢？），当然，它是完全依赖于系统的。</p>
+
+<h3>重要目录</h3>
+
+<p>你也可以包含一些重要文件/目录的清单，比如用户在哪儿能找到帮助文档/教程，哪个文件中包含了更多的命令，或者哪个文件包含了联系信息（如果它没有被放在Motd文件中）。</p>
+
+<h3>故障检测</h3>
+
+<p>我也会列出一两个最常见问题的处理办法（比如重启Xserver或者以管理者身份登录系统)使得用户可以退出tty shell终端。如果觉得用户乐意接受的话，你也可以给他们解释如何捕捉调试信息，或者他们事后发给你的日志文件。</p>
+
+<h3>挂载外部设备</h3>
+
+<p>如果用户需要给你发送log文件，或者需要备份一个文件（或者保存一个备份），那么将某种外部设备连接到电脑上，是很有帮助的。因为大部分都是由hal和udev设备管理工具处理这些事件的，所以他们可能依然工作在tty shell终端中，尽管我发现貌似并非如此。因此我列出了一些命令(按实用性进行归类，比如“USB”(通常指FAT32)，“external hard drive&#8221;(通常指ntfs或ext3/ext4)，或者一些特殊设备，如果你了解硬件就应该懂的）。我不建议把所有的额外信息加入进去，除非非常重要，或者用户处于不能通过个人或者SSH提供简单的指导干预和帮助的地区。</p>
+
+<h3>联系信息</h3>
+
+<p>如果作为一个受雇于某家公司的系统管理员，或者你并不太熟悉的某人，我会把电话号码，电邮地址，以及能够让他们联系到我的网站地址添加进去。</p>
+
+<hr />
+
+<p>以上这些所有的事项基本上我都包含到当日消息中了，但它绝非多余。如果有人对当日消息有些意思或者独特地应用，要随时与我分享哦，我的邮箱是 <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#x6c;&#115;&#x77;&#x65;&#x73;&#116;&#x33;&#x34;&#64;&#103;&#109;&#x61;&#x69;&#108;&#46;&#99;&#111;&#x6d;">&#x6c;&#115;&#x77;&#x65;&#x73;&#x74;&#x33;&#52;&#64;&#103;&#109;&#97;&#x69;&#x6c;&#46;&#99;&#111;&#x6d;</a>。如果我也觉得有趣，就会把他们编排到下个月的文章中。一如既往地欢迎大家的建议和问题。发给我的邮件请在主题栏上包含“C&amp;C&#8221;或者“FCM”，方便进行适当地归类。</p>
+
+<p>如果有人对当日消息有兴趣或者有独特的应用，要随时与我分享哦。</p>
 </div>
 
 
@@ -129,7 +151,7 @@
   
 
 
-<time datetime="2012-04-26T18:06:00+08:00" pubdate data-updated="true">Apr 26<span>th</span>, 2012</time>
+<time datetime="2012-04-26T20:07:00+08:00" pubdate data-updated="true">Apr 26<span>th</span>, 2012</time>
       
 
 <span class="categories">
@@ -143,7 +165,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://FCCTT.github.com/blog/2012/04/fcm53-editorial/" data-via="fullcirclecnmag" data-counturl="http://FCCTT.github.com/blog/2012/04/fcm53-editorial/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer/" data-via="fullcirclecnmag" data-counturl="http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -156,10 +178,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/04/test-translate-post/" title="Previous Post: test-translate-post">&laquo; test-translate-post</a>
+        <a class="basic-alignment left" href="/blog/2012/04/fcm53-letters/" title="Previous Post: 53期 - 读者来信">&laquo; 53期 - 读者来信</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/04/fcm53-linux-news/" title="Next Post: 53期 - Linux 新闻">53期 - Linux 新闻 &raquo;</a>
       
     </p>
   </footer>
@@ -271,8 +291,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://FCCTT.github.com/blog/2012/04/fcm53-editorial/';
-        var disqus_url = 'http://FCCTT.github.com/blog/2012/04/fcm53-editorial/';
+        var disqus_identifier = 'http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer/';
+        var disqus_url = 'http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer/';
         var disqus_script = 'embed.js';
       
     (function () {
