@@ -5,6 +5,8 @@ date: 2012-04-26 18:42
 comments: true
 categories: issue53
 ---
+`翻译：郭仲杰 校对：李蹊 顾履冰`
+
 ## Ubuntu Store 对应用程序开发者开放 ##
 
 Canonical 将于近日启动其应用程序开发者网站，其目的在于招揽开发者们开发用于Ubuntu Linux发行版的应用程序。Ubuntu软件中心是Canonical公司内置在其非常受欢迎的Ubuntu Linux发行版中的应用商店，它不仅提供免费的应用程序，也代售付费的应用程序。或许传统的Linux用户会将这个软件中心仅仅看作是一个Dselect的图形化前端，但是Canonical公司已经在其中开展了很多工作，不仅可以使其创收，而且也使Ubuntu更加简单好用。
