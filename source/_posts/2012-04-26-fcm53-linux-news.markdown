@@ -24,19 +24,13 @@ Canonical公司也同样需要这样类似的多平台服务，这也正是他�
 GNOME 3.2 final已经发布，”自上一个3.0版本以来，已经有1270多人为GNOME进行了多达38500多项改进”。
 GNOME 3.2中包含了哪些新特性呢？
 
-支持在文件浏览器（Nautilus）中以一种华丽优美的方式来预览你的文件；
-
-Online Accounts可以被Documents、Contacts、Empathy、Evolution等程序自动调用；
-
-Web Application（可以在Epiphany中通过“Save as Web Application“存储网页，并在独立窗口中使用）；
-
-Contacts是一个能够集中存储你的在线联系人或者Evolution和Empathy中的联系人的工具；
-
-Documents可以帮助你寻找，组织管理和查看本机上的文档；
-
-Color Management允许用户校准设备以保证色彩的正常显示新的GNOME-Sheel登录界面；
-
-经过重新设计的字体选择器（font chooser）。 另外还有很多，很多......
+* 支持在文件浏览器（Nautilus）中以一种华丽优美的方式来预览你的文件；
+* Online Accounts可以被Documents、Contacts、Empathy、Evolution等程序自动调用；
+* Web Application（可以在Epiphany中通过“Save as Web Application“存储网页，并在独立窗口中使用）；
+* Contacts是一个能够集中存储你的在线联系人或者Evolution和Empathy中的联系人的工具；
+* Documents可以帮助你寻找，组织管理和查看本机上的文档；
+* Color Management允许用户校准设备以保证色彩的正常显示新的GNOME-Sheel登录界面；
+* 经过重新设计的字体选择器（font chooser）。 另外还有很多，很多......
 
 来源：[iloveubuntu.net](http://iloveubuntu.net)
 
