@@ -4,7 +4,7 @@
   <title><![CDATA[Category: issue53 | Full Circle - lite]]></title>
   <link href="http://FCCTT.github.com/blog/categories/issue53/atom.xml" rel="self"/>
   <link href="http://FCCTT.github.com/"/>
-  <updated>2012-04-26T19:09:54+08:00</updated>
+  <updated>2012-04-26T19:35:58+08:00</updated>
   <id>http://FCCTT.github.com/</id>
   <author>
     <name><![CDATA[fcctt.org]]></name>
@@ -37,19 +37,16 @@ Canonical公司也同样需要这样类似的多平台服务，这也正是他�
 <p>GNOME 3.2 final已经发布，”自上一个3.0版本以来，已经有1270多人为GNOME进行了多达38500多项改进”。
 GNOME 3.2中包含了哪些新特性呢？</p>
 
-<p>支持在文件浏览器（Nautilus）中以一种华丽优美的方式来预览你的文件；</p>
+<ul>
+<li>支持在文件浏览器（Nautilus）中以一种华丽优美的方式来预览你的文件；</li>
+<li>Online Accounts可以被Documents、Contacts、Empathy、Evolution等程序自动调用；</li>
+<li>Web Application（可以在Epiphany中通过“Save as Web Application“存储网页，并在独立窗口中使用）；</li>
+<li>Contacts是一个能够集中存储你的在线联系人或者Evolution和Empathy中的联系人的工具；</li>
+<li>Documents可以帮助你寻找，组织管理和查看本机上的文档；</li>
+<li>Color Management允许用户校准设备以保证色彩的正常显示新的GNOME-Sheel登录界面；</li>
+<li>经过重新设计的字体选择器（font chooser）。 另外还有很多，很多......</li>
+</ul>
 
-<p>Online Accounts可以被Documents、Contacts、Empathy、Evolution等程序自动调用；</p>
-
-<p>Web Application（可以在Epiphany中通过“Save as Web Application“存储网页，并在独立窗口中使用）；</p>
-
-<p>Contacts是一个能够集中存储你的在线联系人或者Evolution和Empathy中的联系人的工具；</p>
-
-<p>Documents可以帮助你寻找，组织管理和查看本机上的文档；</p>
-
-<p>Color Management允许用户校准设备以保证色彩的正常显示新的GNOME-Sheel登录界面；</p>
-
-<p>经过重新设计的字体选择器（font chooser）。 另外还有很多，很多......</p>
 
 <p>来源：<a href="http://iloveubuntu.net">iloveubuntu.net</a></p>
 ]]></content>
@@ -74,7 +71,7 @@ GNOME 3.2中包含了哪些新特性呢？</p>
 
 <p>Ronnie</p>
 
-<p><a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#114;&#111;&#110;&#x6e;&#x69;&#101;&#64;&#x66;&#117;&#108;&#x6c;&#99;&#105;&#114;&#x63;&#x6c;&#x65;&#109;&#97;&#x67;&#97;&#122;&#x69;&#x6e;&#x65;&#x2e;&#111;&#114;&#x67;">&#114;&#111;&#110;&#110;&#105;&#x65;&#x40;&#102;&#x75;&#108;&#x6c;&#99;&#105;&#x72;&#99;&#108;&#101;&#x6d;&#97;&#103;&#x61;&#x7a;&#x69;&#x6e;&#101;&#46;&#111;&#114;&#103;</a></p>
+<p><a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#58;&#x72;&#x6f;&#110;&#x6e;&#x69;&#x65;&#64;&#x66;&#x75;&#x6c;&#108;&#x63;&#x69;&#x72;&#99;&#x6c;&#x65;&#x6d;&#x61;&#x67;&#x61;&#x7a;&#x69;&#x6e;&#x65;&#46;&#111;&#114;&#103;">&#114;&#111;&#110;&#110;&#105;&#x65;&#x40;&#x66;&#x75;&#108;&#108;&#99;&#x69;&#x72;&#x63;&#108;&#101;&#109;&#x61;&#x67;&#x61;&#122;&#105;&#110;&#x65;&#x2e;&#111;&#114;&#103;</a></p>
 ]]></content>
   </entry>
   
