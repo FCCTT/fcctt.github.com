@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Editorial | Full Circle - lite]]></title>
-  <link href="http://FCCTT.github.com/blog/categories/editorial/atom.xml" rel="self"/>
+  <title><![CDATA[Category: issue53 | Full Circle - lite]]></title>
+  <link href="http://FCCTT.github.com/blog/categories/issue53/atom.xml" rel="self"/>
   <link href="http://FCCTT.github.com/"/>
-  <updated>2012-04-26T18:22:46+08:00</updated>
+  <updated>2012-04-26T19:04:05+08:00</updated>
   <id>http://FCCTT.github.com/</id>
   <author>
     <name><![CDATA[fcctt.org]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[53期 - 编者的话]]></title>
-    <link href="http://FCCTT.github.com/blog/2012/04/26/fcm53-editorial.markdownd/"/>
+    <link href="http://FCCTT.github.com/blog/2012/04/fcm53-editorial.markdownd/"/>
     <updated>2012-04-26T18:06:00+08:00</updated>
-    <id>http://FCCTT.github.com/blog/2012/04/26/fcm53-editorial.markdownd</id>
+    <id>http://FCCTT.github.com/blog/2012/04/fcm53-editorial.markdownd</id>
     <content type="html"><![CDATA[<p><code>翻译：郜翼 校对：李洋 杨佳 吴云</code></p>
 
 <p>欢迎来到新一期的 Full Circle 杂志！</p>
@@ -32,7 +32,7 @@
 
 <p>Ronnie</p>
 
-<p><a href="&#x6d;&#97;&#x69;&#108;&#116;&#111;&#58;&#x72;&#x6f;&#x6e;&#110;&#x69;&#x65;&#x40;&#102;&#117;&#108;&#108;&#x63;&#105;&#x72;&#x63;&#108;&#x65;&#x6d;&#x61;&#103;&#97;&#122;&#x69;&#110;&#x65;&#46;&#x6f;&#x72;&#103;">&#114;&#x6f;&#x6e;&#x6e;&#x69;&#x65;&#x40;&#102;&#x75;&#x6c;&#x6c;&#x63;&#x69;&#114;&#x63;&#108;&#x65;&#x6d;&#x61;&#103;&#x61;&#x7a;&#x69;&#x6e;&#x65;&#x2e;&#111;&#x72;&#x67;</a></p>
+<p><a href="&#109;&#97;&#x69;&#108;&#116;&#111;&#58;&#x72;&#x6f;&#x6e;&#110;&#x69;&#101;&#x40;&#x66;&#117;&#108;&#x6c;&#x63;&#105;&#x72;&#99;&#x6c;&#x65;&#109;&#x61;&#x67;&#97;&#x7a;&#x69;&#x6e;&#x65;&#x2e;&#111;&#x72;&#x67;">&#x72;&#111;&#x6e;&#110;&#x69;&#x65;&#x40;&#x66;&#117;&#108;&#x6c;&#99;&#105;&#114;&#x63;&#x6c;&#101;&#109;&#97;&#103;&#x61;&#x7a;&#x69;&#x6e;&#x65;&#46;&#111;&#114;&#103;</a></p>
 ]]></content>
   </entry>
   

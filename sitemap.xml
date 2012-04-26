@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://FCCTT.github.com/blog/2012/04/24/test-translate-post/</loc>
+        <loc>http://FCCTT.github.com/blog/2012/04/test-translate-post/</loc>
         <lastmod>2012-04-24T13:45:04+08:00</lastmod>
     </url>
     <url>
-        <loc>http://FCCTT.github.com/blog/2012/04/26/fcm53-editorial.markdownd/</loc>
-        <lastmod>2012-04-26T18:17:19+08:00</lastmod>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-editorial.markdownd/</loc>
+        <lastmod>2012-04-26T19:03:00+08:00</lastmod>
     </url>
     <url>
         <loc>http://FCCTT.github.com/blog/archives/</loc>
-        <lastmod>2012-04-26T18:17:19+08:00</lastmod>
+        <lastmod>2012-04-26T19:03:00+08:00</lastmod>
     </url>
     <url>
         <loc>http://FCCTT.github.com/</loc>
-        <lastmod>2012-04-26T18:17:19+08:00</lastmod>
+        <lastmod>2012-04-26T19:03:00+08:00</lastmod>
     </url>
 </urlset>
