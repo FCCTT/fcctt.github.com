@@ -4,7 +4,7 @@
   <title><![CDATA[Category: LINUX-LAB | Full Circle - lite]]></title>
   <link href="http://FCCTT.github.com/blog/categories/linux-lab/atom.xml" rel="self"/>
   <link href="http://FCCTT.github.com/"/>
-  <updated>2012-05-26T21:51:50+08:00</updated>
+  <updated>2012-05-26T22:57:41+08:00</updated>
   <id>http://FCCTT.github.com/</id>
   <author>
     <name><![CDATA[fcctt.org]]></name>
@@ -32,6 +32,9 @@
 <p>现在ZoneMinder已在蹲点查看（监控）移动侦测事宜。意思就是，它在等待物体移动。当某样东西移动后，你会观察到你的管理屏幕上在出现一些数字(如右上图所示）。</p>
 
 <p>（在我的案例中）数字1表示一个事件已发生。点击“事件”那一列中的数字1后，会转到事件列表：你会看见事件信息。在这个案例里，“Cause（触发器）”那一列就是“Motion（移动）”，即一个动作。事件发生之时，事件的过程（或者动作），即各种其他附加数据均被记录。如果你在设置中启用了提醒，你还会看到一个提示此事件的缩略图标。</p>
+
+<!--more-->
+
 
 <p>点击名称或者id号，系统将会回放此事件：先别慌，其实事件记录的是我合上自己的笔记本，不过这也可以是其他偷我笔记本的人。你会发现回放还有日期与时间标记。就在带有我时间标记的位置上方，你可以看到一个“Export（导出）”场景为视频的链接。如果你运气好的话，你会看到一个提示窗口询问你想导出哪样东西：而我嘛？啥也没看到。这其实是又一个ZoneMinder/Ubuntu冲突，为解决这个问题，我只能通过使用静态地址来获得对导出界面的访问。所以呢，如果你没有看到导出用的弹出窗口，试试这个地址：<a href="http://localhost/zm/index.php?view=video&amp;eid=127">http://localhost/zm/index.php?view=video&amp;eid=127</a></p>
 

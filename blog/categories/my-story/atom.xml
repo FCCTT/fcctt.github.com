@@ -4,7 +4,7 @@
   <title><![CDATA[Category: my-story | Full Circle - lite]]></title>
   <link href="http://FCCTT.github.com/blog/categories/my-story/atom.xml" rel="self"/>
   <link href="http://FCCTT.github.com/"/>
-  <updated>2012-05-26T21:51:50+08:00</updated>
+  <updated>2012-05-26T22:57:41+08:00</updated>
   <id>http://FCCTT.github.com/</id>
   <author>
     <name><![CDATA[fcctt.org]]></name>
@@ -25,6 +25,9 @@
 <p>认真地说，我确实热爱Windows。在80年代中期是它让我有钱可挣。从Windows 1.0 到 Windows 7，这些年来它已经帮助很多用户解决了在操作系统中遇到的多种问题，这些我都看在眼里。</p>
 
 <p>Windows在做它自己该做的事，就是尽量让绝大多数的用户能相对简单地使用电脑。它有缺陷吗？绝对有。那它是一个“完美的”操作系统吗？对一些人来说是，但是还有一些人从不觉得它是。由于还存在着很多错误，瑕疵以及显而易见的缺点，它的评价不像Linux，Mac，或者其他操作系统那样高，同时它也因为处于最广为人用的操作系统的位置上而饱受攻击。但是只要它仍然保持它的位置，我将继续从工作中赚取报酬。</p>
+
+<!--more-->
+
 
 <p>尽管大家都如是说，我崇拜Ubuntu却是出于完全不同的原因。2006年在华盛顿的一个FOSE（译注：Future Of Software Engineering，软件工程展望会）会展上我第一次结识了Ubuntu。所有供应商和企业关注的焦点是由三个人的小桌子围成的摊位，负责分发Ubuntu 5.10 Breezy Badger拷贝。这些家伙没有高压力和极具活力的推销说辞，仅仅只有一个简单的要求：“Just try it”。</p>
 
@@ -65,6 +68,9 @@
 <p>我如此热衷参与开源社区是有渊源的，曾经创作了一份基于GFDL 协议（译注：GNU自由文档许可协议，英文全称是：GNU Free Documentation License）的钢琴入门课程：“Learning the Code”，在一些地方可以下载得到，如Scribd（译注：一个可以上传在线文档并分享的社区）和Internet Archive（译注：互联网档案馆）。 显然，借在课堂上教学的机会，我可以了解到哪些资源可以成功地被应用于音乐赏析课中。</p>
 
 <p>我有一台Acer Aspire One 255E上网本。我用它进行课堂教学、并取得了上文中成果。在Ubuntu转用Unity桌面后，我就换成了Lubuntu。我很喜欢Lubuntu，觉得它将成为Xubuntu的最终继任者。</p>
+
+<!--more-->
+
 
 <p>我用LibreOffice Impress 3.3制作课堂讲义和幻灯片演示。我会自然地插一些影音片段到幻灯片中，这样貌似可以让学生们注意力更集中。虽然也曾看过其他的开源幻灯片软件，但是，在Lubuntu提供的众多选择中LibrOffice最能满足我的需求。随着LibreOffice功能的逐步改进，我的幻灯片也会越来越精良。</p>
 

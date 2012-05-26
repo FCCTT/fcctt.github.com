@@ -4,7 +4,7 @@
   <title><![CDATA[Category: backup-strategy | Full Circle - lite]]></title>
   <link href="http://FCCTT.github.com/blog/categories/backup-strategy/atom.xml" rel="self"/>
   <link href="http://FCCTT.github.com/"/>
-  <updated>2012-05-26T21:51:50+08:00</updated>
+  <updated>2012-05-26T22:57:41+08:00</updated>
   <id>http://FCCTT.github.com/</id>
   <author>
     <name><![CDATA[fcctt.org]]></name>
@@ -27,6 +27,9 @@
 <h3>什么东西需要备份</h3>
 
 <p>不用担心软件。程序的丢失最多只会带来不便，因为程序可以很容易地被替换掉，尤其是开源程序；你也不必为了找许可证或激活码（ License/Activation Keys ）而浪费时间。</p>
+
+<!--more-->
+
 
 <p>但是如果丢失的是数据就真的悲剧了，因为数据才是真正的无价之宝啊。</p>
 
