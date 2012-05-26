@@ -3,7 +3,7 @@ layout: post
 title: "53期 - 决胜命令行"
 date: 2012-04-26 20:07
 comments: true
-categories: issue53
+categories: issue53 command-and-conquer
 ---
 `作者：Lucus Westermann | 翻译：charliephil 校对：吴云 顾履冰`
 

@@ -3,7 +3,7 @@ layout: post
 title: "53期 - 编者的话"
 date: 2012-04-26 18:06
 comments: true
-categories: issue53
+categories: issue53 editorial
 ---
 `翻译：郜翼 校对：李洋 杨佳 吴云`
 

@@ -3,7 +3,7 @@ layout: post
 title: "53期 - 读者来信"
 date: 2012-04-26 20:04
 comments: true
-categories: issue53
+categories: issue53 letters
 ---
 ` 翻译：相晓伟 校对：李洋 吴云`
 
