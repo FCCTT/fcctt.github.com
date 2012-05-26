@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: LINUX-LAB | Full Circle - lite]]></title>
+  <link href="http://FCCTT.github.com/blog/categories/linux-lab/atom.xml" rel="self"/>
+  <link href="http://FCCTT.github.com/"/>
+  <updated>2012-05-26T21:46:40+08:00</updated>
+  <id>http://FCCTT.github.com/</id>
+  <author>
+    <name><![CDATA[fcctt.org]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[53期 - Linux 实验室 - ZoneMinder闭路电视-第2部分]]></title>
+    <link href="http://FCCTT.github.com/blog/2012/04/fcm53-linux-lab/"/>
+    <updated>2012-04-26T20:07:00+08:00</updated>
+    <id>http://FCCTT.github.com/blog/2012/04/fcm53-linux-lab</id>
+    <content type="html"><![CDATA[<p><code>作者: Ronnie Tucker 翻译: 梁远金 校对: 李文 刘丹阳</code></p>
+
+<!--需要补充大量图片-->
+
+
+<p>上个月我们上线运行了闭路电视（CCTV）系统。唯一美中不足的地方是它只能查看图像而无法进行记录。本月我们将纠正这个问题。</p>
+
+<p>以下为案例场景：我把自己的笔记本放在桌子上，并且想知道是否有人触摸、搬动或者拿走我的笔记本。最简单的途径就是将我们的ZoneMinder闭路电视的监控指向笔记本。</p>
+
+<p>然后，在ZoneMinder的管理界面，点击“monitor（监控）”的那个链接。你会看到一个带有选项的下拉菜单。这些选项就是可以对ZoneMinder进行操作的功能。而刚才我们在做的事情就是“监控”——监控或者查看场面境况。在这里，我们选择“Modect（motion detect的缩写，意为移动侦测）”，然后点击“Save（保存）”。</p>
+
+<p>现在ZoneMinder已在蹲点查看（监控）移动侦测事宜。意思就是，它在等待物体移动。当某样东西移动后，你会观察到你的管理屏幕上在出现一些数字(如右上图所示）。</p>
+
+<p>（在我的案例中）数字1表示一个事件已发生。点击“事件”那一列中的数字1后，会转到事件列表：你会看见事件信息。在这个案例里，“Cause（触发器）”那一列就是“Motion（移动）”，即一个动作。事件发生之时，事件的过程（或者动作），即各种其他附加数据均被记录。如果你在设置中启用了提醒，你还会看到一个提示此事件的缩略图标。</p>
+
+<p>点击名称或者id号，系统将会回放此事件：先别慌，其实事件记录的是我合上自己的笔记本，不过这也可以是其他偷我笔记本的人。你会发现回放还有日期与时间标记。就在带有我时间标记的位置上方，你可以看到一个“Export（导出）”场景为视频的链接。如果你运气好的话，你会看到一个提示窗口询问你想导出哪样东西：而我嘛？啥也没看到。这其实是又一个ZoneMinder/Ubuntu冲突，为解决这个问题，我只能通过使用静态地址来获得对导出界面的访问。所以呢，如果你没有看到导出用的弹出窗口，试试这个地址：<a href="http://localhost/zm/index.php?view=video&amp;eid=127">http://localhost/zm/index.php?view=video&amp;eid=127</a></p>
+
+<p>注意：地址结尾的事件的ID号是“127”，你可以在事件列表窗口或者视频回放窗口找到它。在导出你的视频之前，请务必确认你已将上述地址的数字127改成你自己的ID号。</p>
+
+<p>这个地址会将你引向：选择视频格式、帧速以及视频大小的地方，你会看到“Generate Video（生成视频）”的按钮。在你点击生成按钮后，你就可以查看、下载或者删除已生成的视频了。这生成的是关于我动（而非偷）了自己笔记本的视频。</p>
+
+<p>下个月，我们会讨论更多关于移动侦测的内容。如果你既想看住自己的车，又不想闭路电视误拍风吹树动或无辜路人的话，那又该如何呢？</p>
+]]></content>
+  </entry>
+  
+</feed>

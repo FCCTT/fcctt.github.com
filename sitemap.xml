@@ -1,31 +1,71 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://FCCTT.github.com/blog/2012/04/test-translate-post/</loc>
-        <lastmod>2012-04-24T13:45:04+08:00</lastmod>
-    </url>
-    <url>
         <loc>http://FCCTT.github.com/blog/2012/04/fcm53-editorial/</loc>
-        <lastmod>2012-05-26T17:35:11+08:00</lastmod>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
     </url>
     <url>
         <loc>http://FCCTT.github.com/blog/2012/04/fcm53-linux-news/</loc>
-        <lastmod>2012-05-26T17:35:27+08:00</lastmod>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
     </url>
     <url>
         <loc>http://FCCTT.github.com/blog/2012/04/fcm53-letters/</loc>
-        <lastmod>2012-05-26T17:35:18+08:00</lastmod>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
     </url>
     <url>
         <loc>http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer/</loc>
-        <lastmod>2012-05-26T17:36:28+08:00</lastmod>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-linux-lab/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-ubuntu-women/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-my-story-1/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-my-story-2/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-ubuntu-games/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-python-programming-part-27/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-gramps-part-2/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-libre-office-part-8/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-bus-and-edu-part-2/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-backup-strategy-part-1/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://FCCTT.github.com/blog/2012/04/fcm53-review/</loc>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
     </url>
     <url>
         <loc>http://FCCTT.github.com/blog/archives/</loc>
-        <lastmod>2012-05-26T17:36:28+08:00</lastmod>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
     </url>
     <url>
         <loc>http://FCCTT.github.com/</loc>
-        <lastmod>2012-05-26T17:36:28+08:00</lastmod>
+        <lastmod>2012-05-26T21:37:45+08:00</lastmod>
     </url>
 </urlset>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: my-story | Full Circle - lite]]></title>
+  <link href="http://FCCTT.github.com/blog/categories/my-story/atom.xml" rel="self"/>
+  <link href="http://FCCTT.github.com/"/>
+  <updated>2012-05-26T21:46:40+08:00</updated>
+  <id>http://FCCTT.github.com/</id>
+  <author>
+    <name><![CDATA[fcctt.org]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[53期 - 我的故事 - Ubuntu 在课堂]]></title>
+    <link href="http://FCCTT.github.com/blog/2012/04/fcm53-my-story-2/"/>
+    <updated>2012-04-26T20:09:00+08:00</updated>
+    <id>http://FCCTT.github.com/blog/2012/04/fcm53-my-story-2</id>
+    <content type="html"><![CDATA[<p><code>作者：Matt Anthony 翻译：黄傲妮 校对：李文 吴云</code></p>
+
+<p>我爱Windows，可能你们其中一些人立刻就笑了，你们一定觉得“这个编者犯了多么可笑的错误，尽然用‘Windows’代替‘Ubuntu’。”</p>
+
+<p>认真地说，我确实热爱Windows。在80年代中期是它让我有钱可挣。从Windows 1.0 到 Windows 7，这些年来它已经帮助很多用户解决了在操作系统中遇到的多种问题，这些我都看在眼里。</p>
+
+<p>Windows在做它自己该做的事，就是尽量让绝大多数的用户能相对简单地使用电脑。它有缺陷吗？绝对有。那它是一个“完美的”操作系统吗？对一些人来说是，但是还有一些人从不觉得它是。由于还存在着很多错误，瑕疵以及显而易见的缺点，它的评价不像Linux，Mac，或者其他操作系统那样高，同时它也因为处于最广为人用的操作系统的位置上而饱受攻击。但是只要它仍然保持它的位置，我将继续从工作中赚取报酬。</p>
+
+<p>尽管大家都如是说，我崇拜Ubuntu却是出于完全不同的原因。2006年在华盛顿的一个FOSE（译注：Future Of Software Engineering，软件工程展望会）会展上我第一次结识了Ubuntu。所有供应商和企业关注的焦点是由三个人的小桌子围成的摊位，负责分发Ubuntu 5.10 Breezy Badger拷贝。这些家伙没有高压力和极具活力的推销说辞，仅仅只有一个简单的要求：“Just try it”。</p>
+
+<p>当我在背包里发现Ubuntu信息包（Live CD和Install Disk）时，它躺在里面已经有一两个月了，直到我搬到办公室才记起来。当再一次看到磁盘，我回想起第一次拿到他们的时候被要求的——“Just try it”。碰巧最近我的Gateway Solo 5300 laptop坏掉了，于是正如其他的《我的故事》作者一样我开始了Ubuntu的奇幻旅程。我将Live CD插入光驱，不到一分钟，就出现了一个桌面。显卡，无线网卡，声卡，一切都被立刻识别并运行。我不需要换磁盘，加载额外的驱动程序或者从网上下载任何东西——一切都工作正常。</p>
+
+<p>绚丽的效果令我印象深刻。</p>
+
+<p>我研究了几天，尝试了从Live CD上我能获得的所有东西。偶尔，我会忘记我的电脑已经坏了，除了每次重启时屏幕上会提醒我“Windows不能正常启动”。不过问题最终还是解决了，“Just try it”很快就变成了“Just do it”，同时我擦除了驱动器并完全安装上了Ubuntu。安装完之后我把CD给了同事。他问“这是什么？”当然，我的回答是“Just try it”。</p>
+
+<p>在接下来的一年里，我很开心地学习了Ubuntu。论坛是（一直都是）一个集聚大量知识和支持的地方。Tux杂志（现在已经解散）也是一个很有用的资源。我的同事借助Live CD花了几天时间就完全装好了Ubuntu，我们都放弃了“双启动”并且一头扎进了这个系统。虽然有些令人头疼的问题（“愚蠢的iTunes不能在Ubuntu中工作”是一个主要的问题）但是整体的体验还是很棒的。
+但是最后，我那台旧的Gateway笔记本还是坏死于大规模的硬件故障。随后我买了一台联想乐派S10上网本，预装了Windows XP系统。我保留上网本如它买来时的样子（除了所有的大软件）并且欢乐地运行了一段时间，Ubuntu都被忘得一干二净了。由于没有CD光驱所以我不能运行Live CD。另外,iTunes工作很好，所以整个世界看起来都好多了。</p>
+
+<p>几个月前，我开始注意到我的小上网本很挣扎地解决一些简单的任务，比如说引导。于是我决定看一下它得花多长时间启动系统并打开我的主页。在我盯着主页5分8秒之后才终于打开了它——我回想起在我的那台旧笔记本上Ubuntu是多么得快啊。或许我需要再一次“Just try it”。</p>
+
+<p>网络快速搜索把我带到了 <a href="http://Pendrivelinux.com">Pendrivelinux.com</a> ，在那里我很容易地就创建了一个可引导Maverick Meerkat(译注：ubuntu 10.10)系统启动的USB驱动装置。重新启动，BIOS调整，接着38秒后它就重燃了我对这个操作系统的感情。当然，iTunes仍然不能工作（我知道可以运行VM或者Wine）。但是，我只有相对较少的几首歌是他们的m4p格式，所以我可以把它们刻录到一张CD然后翻录回到另外一个系统。</p>
+
+<p>Banshee(译注：一个跨平台的开放源代码媒体播放器)工作的很好（Amarok(译注：一款在Linux或其他Unix操作系统中运行的音频播放器)不能正常工作）而且保持了我的设备完美同步，Calibre令人惊奇地保持着我的电子书和Sony Pocket阅读器的组织方式，同时通过Evolution设置我的email也非常简单。我甚至使用OpenOffice（还有现在的LibreOffice）去帮助一位顾客恢复了一些Windows认为被损坏且无法读取的PPT。</p>
+
+<p>马上到《我的故事》的结尾了。有时候，我有机会将Ubuntu介绍给新人。我会向他们展示我的上网本：看它是以多快的速度运行，全部的自由软件，以及所有与他们目前使用的Windows相同的功能。他们大多都很礼貌地笑笑，然后提醒我，说我享受Linux是因为我是个“极客(geek)”。有一对夫妇看起来真的很感兴趣，我就给了他们一张Live CD并将引领我开始的三个字送给他们：“Just try it”。</p>
+
+<p>我的系统：</p>
+
+<p>我在联想乐派S10上网本上运行完整版的Ubuntu11.04。因为更喜欢“经典”桌面，所以就删除了Unity。由于它只不过是一个上网本，所以系统配置并不十分强悍：Intel Atom 1.60GHz处理器，1.5GB内存，还有80GB硬盘。为了运行鼠标，我给系统添加了蓝牙控制器（那里只有两个USB插槽，我不想浪费一个在鼠标上）。Ubuntu运行所有东西都“打破约束”似的那样直接。即使我的惠普C6280喷墨式打印机是首次安装，它也能很快的被识别发现，加之有了惠普的插件，我就能容易地进行浏览，打印和无线复制。</p>
+
+<p>我的桌面很简约，因此我非常喜欢它。我运行了3个Screenlets(译注：Screenlets是Ubuntu系统下一款能够在桌面上添加各种小玩意的软件，如即时贴、时钟、天气预报、月历等等)，分别是标准时钟，天气和日历。有时候，我会转换成一个AWN Dock(译注：Dock是图形用户界面中用于启动、切换运行中的应用程序的一种功能界面。AWN为ubuntu下一个Dock工具), 但是几天之后又会转换回到标准的底部面板。我想正是我没有发现AMN Dock正确配置的方法才使得我还保持着这样简单的桌面。这就是我如此喜欢ubuntu的另一个原因，它是那么容易定制和转换。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[53期 - 我的故事]]></title>
+    <link href="http://FCCTT.github.com/blog/2012/04/fcm53-my-story-1/"/>
+    <updated>2012-04-26T20:09:00+08:00</updated>
+    <id>http://FCCTT.github.com/blog/2012/04/fcm53-my-story-1</id>
+    <content type="html"><![CDATA[<p><code>作者: James L. King III 翻译: 陈海荣 校对: 吴云 魏凤军</code></p>
+
+<p>我在佛罗里达州基韦斯特的佛罗里达基斯社区学院教多门音乐课程。随着工作中越来越多地使用开源和公共域的材料,我觉得能使用Lubuntu是一件很自豪的事儿。</p>
+
+<p>我如此热衷参与开源社区是有渊源的，曾经创作了一份基于GFDL 协议（译注：GNU自由文档许可协议，英文全称是：GNU Free Documentation License）的钢琴入门课程：“Learning the Code”，在一些地方可以下载得到，如Scribd（译注：一个可以上传在线文档并分享的社区）和Internet Archive（译注：互联网档案馆）。 显然，借在课堂上教学的机会，我可以了解到哪些资源可以成功地被应用于音乐赏析课中。</p>
+
+<p>我有一台Acer Aspire One 255E上网本。我用它进行课堂教学、并取得了上文中成果。在Ubuntu转用Unity桌面后，我就换成了Lubuntu。我很喜欢Lubuntu，觉得它将成为Xubuntu的最终继任者。</p>
+
+<p>我用LibreOffice Impress 3.3制作课堂讲义和幻灯片演示。我会自然地插一些影音片段到幻灯片中，这样貌似可以让学生们注意力更集中。虽然也曾看过其他的开源幻灯片软件，但是，在Lubuntu提供的众多选择中LibrOffice最能满足我的需求。随着LibreOffice功能的逐步改进，我的幻灯片也会越来越精良。</p>
+
+<p>我建议条件允许的学生使用Google Docs制作幻灯片。在可移植性方面，我觉得Google Docs在比MS Office和LibreOffice更优越：无论用什么电脑播放，效果都一样。这样学生们在课堂之外观看幻灯片时就可以免受格式问题的困扰了。</p>
+
+<p>我还用OpenShot（译注：视频编辑器）和Audacity（译注：音频编辑器）制作类似播客视频的小教程，最终会用作学校的在线课程。</p>
+
+<p>一般我使用的素材都源于Internet Archive和MusOpen（译注：一个提供无版权音乐的网上资料库）。这两个网站有很多非常不错的公共域（public domaiin）和著佐权（copyleft）的音乐演出素材。我的幻灯片所采用的一些素材就源于International Sheet Music Library Project，这上面有很多非常不错的音乐初稿和手稿副本。</p>
+
+<p>通常我会先听完所有不同格式的音乐文件然后再挑出最适合的。这就意味我的数据DVD上有很多不同格式的文件，如：mp3，mp4， ogg， ogv，oga，mov，flac 以及 wav。我把VLC的安装文件也存放在DVD，这样我的学生们就可以轻松地用它听所有文件了。</p>
+
+<p>当试着把ogg格式转成mp3格式时，我发现二次压缩有时会造成转换后的音质比.ogg文件的更差，所以此后就不再尝试将文件都转成mp3格式了。如果使用Audacity（译注：自由且免费的音频编辑器和录音器）来消除唱片针头的摩擦声或是录音中的杂音，我会将它保存成.flac格式从而避免由“有损压缩”(lossy compression)造成的音质下降问题。</p>
+
+<p>使用Scribus做排版时我用的是开源字体。其中，我觉得字体Fontin（regular, sans, smallcaps）、Nimbus Sans（尤其是Nimbus Sans Condensed）、Delicious，还有Miso，很好用。排版之后，我用.pdf格式进行打印。</p>
+
+<p>作曲的时候（我已为学校写了Alma Mater和Fight Song两首歌了），我用MuseScore（译注：乐谱编辑软件）和Lilypond（译注：一个音乐雕版印刷程序，专用来生产高质量五线谱音乐）。MuseScore可以很方便地通过图形界面添加注释，然后用Lilypond来修饰校准五线谱。我认为Lilypond能制作出最好看的活页乐谱。之前我一直使用Finale，从3.1版本用到2005版，2006年开始我转向了Lilypond。 至于以前的用Finale创作的作品，用Wine运行Finale 2005就可以很好地进行编辑。在开始使用MuseScore辅助Lilypond排版添加注释之前，我用的是jEdit这个强大的LilypondTool插件。</p>
+
+<p>对于录音，我使用Rosegarden或者Audacity。我没有其他人那么高的多声道录音要求。</p>
+
+<p>LibreOffice 可以打开所有管理层让我填写提交的 MS-Office 创建的文档,用它保存的 MS Office 格式的文件也从未出现过损坏或打不开的情况。</p>
+
+<p>我往返于家和学校都乘坐的是公共交通工具，这样在赶路的时候我也可以工作。在路上时我会通过iPhone将上网本连接到网络中，这样就能处理文件，回复学生的邮件，还可以为我正在创作的音乐教科书做持续性研究工作（完成后我会将它开源）。</p>
+
+<p>自视为一个积极又热情的开源志愿者。在对开源并不友好的环境中，我自发地用开源素材进行实验。一直以来，我总是着眼于一款软件可以做什么，擅长做什么，然后再发挥这些优势进行工作。对一款软件，无论是专利软件还是开源软件，若总是关注于它“不能”做什么，我都将陷入消极而一事无成。</p>
+]]></content>
+  </entry>
+  
+</feed>
