@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: command-and-conquer | Full Circle - lite]]></title>
+  <link href="http://FCCTT.github.com/blog/categories/command-and-conquer/atom.xml" rel="self"/>
+  <link href="http://FCCTT.github.com/"/>
+  <updated>2012-05-26T17:37:00+08:00</updated>
+  <id>http://FCCTT.github.com/</id>
+  <author>
+    <name><![CDATA[fcctt.org]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[53期 - 决胜命令行]]></title>
+    <link href="http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer/"/>
+    <updated>2012-04-26T20:07:00+08:00</updated>
+    <id>http://FCCTT.github.com/blog/2012/04/fcm53-command-and-conquer</id>
+    <content type="html"><![CDATA[<p><code>作者：Lucus Westermann | 翻译：charliephil 校对：吴云 顾履冰</code></p>
+
+<blockquote><p>关于52期的决胜命令行：热心的Gord Gampbell指出中文可以竖写，这点与我之前的设想大相径庭。</p></blockquote>
+
+<p>决胜命令行的读者们，包括你，如果像我一样， 可能早已劝说一两位你的熟人去使用Linux了。 我的初衷就是让我的操作系统始终尽可能稳定地运行，让用户尽可能少的争论（比如为了抵制Windows如何少出问题的抱怨）.在我处理好上述问题之后，便会引导用户进行短期使用，期间通过一些事件提醒他们需要注意的事项——这些需要依赖于我所安装的发行版本。但是，最近我给一个笔记本电脑装上了ArchLinux（我们决定放弃Chakra后）。不久之后，KDM在运行级别5时不能正常启动了，还退出用户界面进入tty终端屏幕里。</p>
+
+<p>这是造成用户对于如何操作感到不知所措的时刻之一，由此我带来了今天文章的主题，当日消息（the Message of the Day）。当日消息是一个显示登录信息的系统文件，位于<code>/etc/motd</code> 和 <code>/etc/motd.tail</code>中。对于Ubuntu还有个<code>update-motd</code>软件包，提供了更多的选项。通常，被服务器管理员用来列出使用条目，或者一些帮助信息（房间，电话号码，电子邮件等等）。由于它是一个text文本文件，任何内容都可以加入到其中。我觉得如果你能把涉及到的有关事项加入到当日消息中会比较有用，这样便于你的用户需要通过shell终端登录时不至于完全困惑了。</p>
+
+<h3>关于文件</h3>
+
+<p>对于Ubuntu服务器（以及桌面版），需要去编辑<code>/etc/motd.tail</code>和<code>/etc/motd</code>，以确保.tail文件在系统重启之后不会重写<code>/etc/motd</code>文件。 对于较新版本的Ubuntu，文件可能位于<code>/etc/update-motd.d/</code>目录。 这看来是update-motd软件包导致的，但是这些文件已经被清楚地命名了并且便于编辑。</p>
+
+<h3>有用的命令</h3>
+
+<p>我做的第一件事就是增加一组命令列表方便在shell中使用（如cd,cat,vim/nano,pwd等）及各个命令的简要解释说明。此后，你可能想提供一些系统的特定命令（比如，你有个基于命令行已配置的邮件客户端，如何去访问它呢？），当然，它是完全依赖于系统的。</p>
+
+<h3>重要目录</h3>
+
+<p>你也可以包含一些重要文件/目录的清单，比如用户在哪儿能找到帮助文档/教程，哪个文件中包含了更多的命令，或者哪个文件包含了联系信息（如果它没有被放在Motd文件中）。</p>
+
+<h3>故障检测</h3>
+
+<p>我也会列出一两个最常见问题的处理办法（比如重启Xserver或者以管理者身份登录系统)使得用户可以退出tty shell终端。如果觉得用户乐意接受的话，你也可以给他们解释如何捕捉调试信息，或者他们事后发给你的日志文件。</p>
+
+<h3>挂载外部设备</h3>
+
+<p>如果用户需要给你发送log文件，或者需要备份一个文件（或者保存一个备份），那么将某种外部设备连接到电脑上，是很有帮助的。因为大部分都是由hal和udev设备管理工具处理这些事件的，所以他们可能依然工作在tty shell终端中，尽管我发现貌似并非如此。因此我列出了一些命令(按实用性进行归类，比如“USB”(通常指FAT32)，“external hard drive"(通常指ntfs或ext3/ext4)，或者一些特殊设备，如果你了解硬件就应该懂的）。我不建议把所有的额外信息加入进去，除非非常重要，或者用户处于不能通过个人或者SSH提供简单的指导干预和帮助的地区。</p>
+
+<h3>联系信息</h3>
+
+<p>如果作为一个受雇于某家公司的系统管理员，或者你并不太熟悉的某人，我会把电话号码，电邮地址，以及能够让他们联系到我的网站地址添加进去。</p>
+
+<hr />
+
+<p>以上这些所有的事项基本上我都包含到当日消息中了，但它绝非多余。如果有人对当日消息有些意思或者独特地应用，要随时与我分享哦，我的邮箱是 <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#115;&#x77;&#101;&#x73;&#116;&#51;&#52;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x6c;&#x73;&#x77;&#101;&#115;&#x74;&#x33;&#52;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a>。如果我也觉得有趣，就会把他们编排到下个月的文章中。一如既往地欢迎大家的建议和问题。发给我的邮件请在主题栏上包含“C&amp;C"或者“FCM”，方便进行适当地归类。</p>
+
+<p>如果有人对当日消息有兴趣或者有独特的应用，要随时与我分享哦。</p>
+]]></content>
+  </entry>
+  
+</feed>

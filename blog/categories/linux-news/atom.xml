@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: news | Full Circle - lite]]></title>
-  <link href="http://FCCTT.github.com/blog/categories/news/atom.xml" rel="self"/>
+  <title><![CDATA[Category: linux-news | Full Circle - lite]]></title>
+  <link href="http://FCCTT.github.com/blog/categories/linux-news/atom.xml" rel="self"/>
   <link href="http://FCCTT.github.com/"/>
-  <updated>2012-05-26T17:31:44+08:00</updated>
+  <updated>2012-05-26T17:37:00+08:00</updated>
   <id>http://FCCTT.github.com/</id>
   <author>
     <name><![CDATA[fcctt.org]]></name>
