@@ -3,7 +3,7 @@ layout: post
 title: "53期 - Linux 新闻"
 date: 2012-04-26 18:42
 comments: true
-categories: issue53, news
+categories: issue53 news
 ---
 `翻译：郭仲杰 校对：李蹊 顾履冰`
 
